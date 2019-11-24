@@ -20,15 +20,13 @@ The project is basically divided in three modules
 
 Images are read using file input output (I/O) routines and filters are applied on the images to produce enhanced or edited images (according to user’s choice). Filtering is done by understanding and modifying the bitmap image headers. 
 
-- Reference Image. 
-![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/RefImg.jpg)
-
 - Halftoning technique would be used to transform a coloured image to a Greyscale image. 
-![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/Greyscale.jpg "Greyscale")
-
 - Histogram equalization technique would be used to correct the poor contrast of the user’s images. 
 - Altering geometry of images would also be possible by displacement, scaling, rotations and cross product. 
 - Operations such as brightness, contrast, saturation would be performed. 
+
+![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/ProcessDiagram.jpg)
+
 
 All these image processing is executed on server side after the successful image transfer from client to server where server can handle multiple clients together using threads. Server then transfers the new image back to the client. This server to client file transfer and vice versa is achieved using TCP sockets by creating a connection between the two. 
 
