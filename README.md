@@ -19,7 +19,7 @@ The project is basically divided in three modules
 ## Development
 
 Images are read using file input output (I/O) routines and filters are applied on the images to produce enhanced or edited images (according to user’s choice). Filtering is done by understanding and modifying the bitmap image headers. 
-Reference Image: ![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/RefImg.jpg  | width=20)
+Reference Image: ![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/RefImg.jpg)
 
 - Halftoning technique would be used to transform a coloured image to a Greyscale image. 
 ![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/Greyscale.jpg "Greyscale")
