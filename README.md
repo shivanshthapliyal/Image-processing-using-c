@@ -26,9 +26,11 @@ Images are read using file input output (I/O) routines and filters are applied o
 - Altering geometry of images would also be possible by displacement, scaling, rotations and cross product. 
 - Operations such as brightness, contrast, saturation would be performed. 
 
+(I used a picture I clicked of my college campus as a reference image to show the results)
+
 ![alt text](https://github.com/shivanshthapliyal/Image-processing-using-c/blob/master/Output%20Images/JPEGs/ProcessDiagram.jpg)
 
-(I took a picture I clicked of my college campus as a reference image to show the results)
+
 All these image processing is executed on server side after the successful image transfer from client to server where server can handle multiple clients together using threads. Server then transfers the new image back to the client. This server to client file transfer and vice versa is achieved using TCP sockets by creating a connection between the two. 
 
 For any read/write on server side there is a corresponding write/read on client side and vice versa
